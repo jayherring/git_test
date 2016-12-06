@@ -1,0 +1,13 @@
+lineWidth = 50
+str1 ="Chapter 1"
+str2 ="Chapter 2"
+str3 ="Chapter 3"
+str4 ="Page1"
+str5 ="Page 67"
+str6 ="Page121"
+
+puts "Table of Contents".center lineWidth
+puts str1.ljust(lineWidth/2) + str4.rjust(lineWidth/2)
+puts str2.ljust(lineWidth/2) + str5.rjust(lineWidth/2)
+puts str3.ljust(lineWidth/2) + str6.rjust(lineWidth/2)
+
