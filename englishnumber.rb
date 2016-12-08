@@ -34,7 +34,7 @@ def englishNumber number
 
     if left > 0
      
-      numString = numString + ' and '
+      numString = numString + ' '
     end
   end
 
@@ -48,7 +48,7 @@ def englishNumber number
 
     if left > 0
       
-      numString = numString + ' and '
+      numString = numString + ' '
     end
   end
 
@@ -64,7 +64,7 @@ def englishNumber number
 
     if left > 0
       
-      numString = numString + ' and '
+      numString = numString + ' '
     end
   end
 
@@ -80,7 +80,7 @@ def englishNumber number
 
     if left > 0
       # So we don't write 'two hundredfifty-one'...
-      numString = numString + ' and '
+      numString = numString + ' '
     end
   end
 
